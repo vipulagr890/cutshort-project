@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import "./App.css";
 
 function App() {
-  return <div className="App">Eden</div>;
+  return (
+    <div className="App">
+      <img src={logo} alt="eden-logo" />
+    </div>
+  );
 }
 
 export default App;
