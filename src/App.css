@@ -6,3 +6,22 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.btn {
+  background-color: #664de5;
+  color: white;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.6rem 8rem;
+}
+
+.onboarding-stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: 2rem 0;
+}

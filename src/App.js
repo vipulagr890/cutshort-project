@@ -1,12 +1,12 @@
-import logo from "./logo.png";
 import "./App.css";
+import OnboardingForm from "./components/OnboardinForm";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <img src={logo} alt="eden-logo" />
+      <OnboardingForm />
     </div>
   );
-}
+};
 
 export default App;
